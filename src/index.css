@@ -1,6 +1,4 @@
-/* style="height: 158px; background-color: 
 
-orange">style="width: 158px; ;" */
 
 
 * {
@@ -12,11 +10,12 @@ orange">style="width: 158px; ;" */
 .calc {
 	width: 324px;
 	margin: auto;
-	background-color: #39383d;
-	padding: 20px;
+	background-color: #060507;
+	padding: 2px;
 	border-radius: 8px;
 }
 .calc-display {
+	text-align: right;
 	width: 100%;
 	height: 75px;
 	border:none;
@@ -27,10 +26,10 @@ orange">style="width: 158px; ;" */
 input[type=button] {
 	width: 75px;
 	height: 75px;
-	margin: 2px;
+	margin: 1px;
 	color: #fff;
 	border:none;
-	border-radius: 8px;
+	border-radius: 2px;
 	background-color: #58595b
 }
 
@@ -40,5 +39,6 @@ input[type=button] {
 }
 
 #equal{
-    height: 158px
+    height:75px;
+	background-color: orange;
 }
